@@ -268,6 +268,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2e498c9fa979b544af2aff1f794e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Mom: {fileID: 958628188}
+  momSpeed: 0
+  speedMax: 0.1
+  speedMin: 0.05
+  momPos: {x: 0, y: 0, z: 0}
+  xMin: -15
+  xMax: 15
 --- !u!212 &958628190
 SpriteRenderer:
   m_ObjectHideFlags: 0

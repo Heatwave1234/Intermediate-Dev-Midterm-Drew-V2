@@ -22,6 +22,8 @@ public class SortManager : MonoBehaviour
     public GameObject blueLaundry;
     public GameObject whiteLaundry;
 
+    bool spawnedPile;
+
     
 
     // Start is called before the first frame update
@@ -29,7 +31,7 @@ public class SortManager : MonoBehaviour
     {
         //currentLaundry = Laundry[currentLaundryNum];
         currentLaundryNum = Random.Range(1, 2);
-
+        spawnedPile = false;
     }
 
     // Update is called once per frame
@@ -49,7 +51,8 @@ public class SortManager : MonoBehaviour
         if (laundryCounter == laundryMax)
         {
             currentLaundryNum = 50;
-
+            spawnedPile = true;
+            Debug.Log("pile is spawned");
         }
     }
 
