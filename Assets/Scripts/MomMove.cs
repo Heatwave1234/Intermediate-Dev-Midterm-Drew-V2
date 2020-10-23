@@ -29,6 +29,7 @@ public class MomMove : MonoBehaviour
         Mom.transform.Translate(momSpeed, 0f, 0f);
         momPos = Mom.transform.position;
 
+        //turn mom around if moves too far and reset speed
         if (momPos.x <= xMin)
         {
             momPos.x = xMin;

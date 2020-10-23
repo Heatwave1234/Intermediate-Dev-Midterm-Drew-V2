@@ -191,7 +191,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.6247775, g: 0.64595944, b: 0.6792453, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -351,6 +351,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Shirt
       objectReference: {fileID: 0}
+    - target: {fileID: 3686060114378676098, guid: 6b5ca582b0144b94788692db1399260d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5638454588740046936, guid: 6b5ca582b0144b94788692db1399260d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -419,6 +424,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: White Shirt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410081803598061081, guid: 7f568db69cd74ca4c8229dde95e26af7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8764671056963439982, guid: 7f568db69cd74ca4c8229dde95e26af7,
         type: 3}
@@ -839,6 +849,22 @@ MonoBehaviour:
     type: 3}
   whiteLaundry: {fileID: 6410081803598061081, guid: 7f568db69cd74ca4c8229dde95e26af7,
     type: 3}
+  bluePileX: -4
+  bluePileXMax: -5
+  bluePileXMin: -3
+  bluePileY: -2.5
+  bluePileYMax: -1.5
+  bluePileYMin: -3.5
+  whitePileX: 4
+  whitePileXMax: 5
+  whitePileXMin: 3
+  whitePileY: -2.5
+  whitePileYMax: -1.5
+  whitePileYMin: -3.5
+  hitTransform: {fileID: 0}
+  rayPos: {x: 0, y: 0}
+  isClickable: 0
+  isDragging: 0
 --- !u!4 &2067472208
 Transform:
   m_ObjectHideFlags: 0
